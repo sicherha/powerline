@@ -19,7 +19,7 @@ After an update something stopped working
 Assuming powerline was working before update and stopped only after there are 
 two possible explanations:
 
-* You have more then one powerline installation (e.g. ``pip`` and ``Vundle`` 
+* You have more than one powerline installation (e.g. ``pip`` and ``Vundle`` 
   installations) and you have updated only one.
 * Update brought some bug to powerline.
 

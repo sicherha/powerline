@@ -85,7 +85,7 @@ def register_strwidth_error(strwidth):
 	needed settings) and emits new error handling method name.
 
 	:param function strwidth:
-		Function that computs string width measured in display cells the string 
+		Function that computes string width measured in display cells the string 
 		occupies when displayed.
 
 	:return: New error handling method name.

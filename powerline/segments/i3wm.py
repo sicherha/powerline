@@ -247,7 +247,7 @@ def mode(pl, segment_info, names={'default': None}):
 		Specifies the string to show for various modes.
 		Use ``null`` to hide a mode (``default`` is hidden by default).
 
-	Highligh groups used: ``mode``
+	Highlight groups used: ``mode``
 	'''
 	mode = segment_info['mode']
 	if mode in names:

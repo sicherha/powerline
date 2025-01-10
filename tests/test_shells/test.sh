@@ -217,7 +217,7 @@ IPYTHON_PYTHON=ipython
 
 if test -z "$POWERLINE_RC_EXE" ; then
 	if which rc-status >/dev/null ; then
-		# On Gentoo `rc` executable is from OpenRC. Thus app-shells/rc instals 
+		# On Gentoo `rc` executable is from OpenRC. Thus app-shells/rc installs 
 		# `rcsh` executable.
 		POWERLINE_RC_EXE=rcsh
 	else

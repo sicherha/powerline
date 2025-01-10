@@ -127,7 +127,7 @@ def visual_range(pl, segment_info, CTRL_V_text='{rows} x {vcols}', v_text_onelin
 		selection occupies only one line.
 	:param str v_text_multiline:
 		Text to display when in charaterwise visual or select mode, assuming
-		selection occupies more then one line.
+		selection occupies more than one line.
 	:param str V_text:
 		Text to display when in linewise visual or select mode.
 

@@ -10,7 +10,7 @@ prompt). Used themes are defined in :ref:`local_themes key
 Vim local themes
 ================
 
-Vim is the only available extension that has a wide variaty of options for local 
+Vim is the only available extension that has a wide variety of options for local 
 themes. It is the only extension where local theme key refers to a function as 
 described in :ref:`local_themes value documentation <config-ext-local_themes>`. 
 

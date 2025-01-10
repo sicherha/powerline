@@ -958,7 +958,7 @@ class Powerline(object):
 			shut down all threads. Set it to False unless you are exiting an
 			application.
 
-			If set to False this does nothing more then resolving reference
+			If set to False this does nothing more than resolving reference
 			cycle ``powerline → config_loader → bound methods → powerline`` by
 			unsubscribing from config_loader events.
 		'''

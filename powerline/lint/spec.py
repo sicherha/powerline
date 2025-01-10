@@ -46,7 +46,7 @@ class Spec(object):
 
 	.. note::
 		In ``check_`` and ``match`` methods specifications are identified by 
-		their indexes for the purpose of simplyfying :py:meth:`Spec.copy` 
+		their indexes for the purpose of simplifying :py:meth:`Spec.copy` 
 		method.
 
 	Some common parameters:

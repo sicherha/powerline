@@ -423,7 +423,7 @@ class Scanner:
 						if self.peek(k) not in hexdigits:
 							raise ScannerError(
 								'while scanning a double-quoted scalar', start_mark,
-								'expected escape sequence of %d hexdecimal numbers, but found %r' % (
+								'expected escape sequence of %d hexadecimal numbers, but found %r' % (
 									length, self.peek(k)),
 								self.get_mark()
 							)

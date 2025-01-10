@@ -268,7 +268,7 @@ def shutdown(sock, read_sockets, write_sockets, state):
 	#. Notifies segments based on 
 	  :py:class:`powerline.lib.threaded.ThreadedSegment` and WM-specific 
 	  threads that daemon is shutting down.
-	#. Waits for threads to finish, but no more then 2 seconds total.
+	#. Waits for threads to finish, but no more than 2 seconds total.
 	#. Waits so that total execution time of this function is 2 seconds in order 
 	   to allow ThreadedSegments to finish.
 	'''
