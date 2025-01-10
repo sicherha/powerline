@@ -112,7 +112,7 @@ try:
 		def do_status(self, directory, path):
 			if path:
 				try:
-					status = git.Repository(directory).status_file(path)
+					status = git.Repository(directory).status_file(str(path))
 				except (KeyError, ValueError):
 					return None
 
