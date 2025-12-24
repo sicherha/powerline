@@ -7,7 +7,6 @@ import sys
 
 from time import sleep
 from subprocess import check_call
-from glob import glob1
 from traceback import print_exc
 
 from powerline.lib.dict import updated

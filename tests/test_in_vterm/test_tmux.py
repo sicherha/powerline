@@ -8,7 +8,7 @@ import json
 
 from time import sleep
 from subprocess import check_call
-from glob import glob1
+from glob import glob
 from traceback import print_exc
 
 from powerline.lib.dict import updated
@@ -24,7 +24,7 @@ TEST_ROOT = os.path.abspath(os.environ['TEST_ROOT'])
 
 
 def tmux_logs_iter(test_dir):
-	for tail in glob1(test_dir, '*.log'):
+	for tail in glob('*.log', root_dir=test_dir):
 		yield os.path.join(test_dir, tail)
 
 
